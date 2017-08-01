@@ -1,20 +1,6 @@
 #!python3
 import psycopg2
 import datetime
-# import os
-#  VVVVVVV  writes/overwites file
-# fn = 'outfile.txt'
-
-# try:
-#     os.remove(fn)
-# except OSError:
-#     pass
-
-# file = open(fn, 'w')
-
-# file.write('yoohooo')
-# file.close()
-# ^^^^^^^^^  writes/overwrites file
 
 conn = psycopg2.connect("dbname=news")
 c = conn.cursor()
@@ -48,17 +34,5 @@ for row in rows:
     input = day + '/' + month + '/' + year
     my_date = datetime.datetime.strptime(input, "%d/%m/%Y")
     print(my_date.strftime("%b %d, %Y") + ' \u2014 ' + pct + '% errors')
-
-
-
-
-# import datetime
-# input = '23/12/2011'
-# my_date = datetime.datetime.strptime(input, "%d/%m/%Y")
-# print my_date.strftime("%d %b, %Y")
-
-
-
-
 
 conn.close()
