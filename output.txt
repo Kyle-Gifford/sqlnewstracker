@@ -1,0 +1,15 @@
+Three most popular articles:
+"Candidate is jerk, alleges rival" \u2014 338647 views
+"Bears love berries, alleges bear" \u2014 253801 views
+"Bad things gone, say good people" \u2014 170098 views
+
+
+Most popular authors:
+Ursula La Multa \u2014 507594 views
+Rudolf von Treppenwitz \u2014 423457 views
+Anonymous Contributor \u2014 170098 views
+Markoff Chaney \u2014 84557 views
+
+
+Days with more than 1% errors:
+Jul 17, 2016 \u2014 2.3% errors
